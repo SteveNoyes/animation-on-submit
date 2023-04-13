@@ -1,0 +1,37 @@
+.modalContainer {
+  display: block;
+  background: rgba(0,0,0,0.8);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3000;
+}
+
+.modalContent {
+   max-width: 90%;
+   margin: 0 auto;
+   position: relative;
+   top: 15%;
+   width: 90%;
+   background: #ffffff;
+   padding: 15px;
+   border: 2px solid #8DC8E8;
+   border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+
+.close_btn {
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    right: 5px;
+    cursor: pointer;
+    color: #474747;
+    z-index: 6;
+    top: 12px;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration:none;
+    padding:2px 9px;
+}
